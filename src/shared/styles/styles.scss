@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap');
+
+$primary-color: #264653; // navy
+$secondary-color: #2A9D8F; // teal
+$tertiary-color: #E9C46A; // yellow
+$quaternary-color: #F4A261; // orange
+$quinary-color: #E76F51; // red
+$white-color: #ffffff;
+
+body {
+    margin: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+    html {
+        background-color: $primary-color;
+    }
+}
+
+.app {
+    text-align: center;
+    margin: 0;
+}
